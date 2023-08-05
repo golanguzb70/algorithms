@@ -7,10 +7,6 @@ import (
 )
 
 func main() {
-	res := leetcode.GenerateTrees(3)
-	fmt.Println(res)
-	for _, e := range res {
-		leetcode.PrintNode(e)
-		fmt.Println()
-	}
+	res := leetcode.Convert("PAYPALISHIRING", 3)
+	fmt.Println("PAHNAPLSIIGYIR", res, res == "PAHNAPLSIIGYIR")
 }
