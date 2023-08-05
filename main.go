@@ -7,5 +7,10 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcode.Combine(3, 2))
+	res := leetcode.GenerateTrees(3)
+	fmt.Println(res)
+	for _, e := range res {
+		leetcode.PrintNode(e)
+		fmt.Println()
+	}
 }
