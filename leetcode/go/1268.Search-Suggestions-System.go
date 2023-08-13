@@ -7,7 +7,7 @@ import (
 
 func SuggestedProducts(products []string, searchWord string) [][]string {
 	response := [][]string{}
-	subArr := []string{}
+	var subArr []string
 	leng := len(searchWord)
 	for i := 0; i < leng; i++ {
 		prefix := searchWord[:i+1]
