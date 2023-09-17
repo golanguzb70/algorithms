@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	res := leetcode.Convert("PAYPALISHIRING", 3)
-	fmt.Println("PAHNAPLSIIGYIR", res, res == "PAHNAPLSIIGYIR")
+
+	fmt.Println("YNYYN", leetcode.BestClosingTime("YNYYN"))
 }
