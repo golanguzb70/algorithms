@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "tuple": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "ostream": "cpp"
     }
 }
