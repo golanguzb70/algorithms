@@ -24,5 +24,6 @@ func main() {
 
 	for response != nil {
 		fmt.Println(response.Val)
+		response = response.Next
 	}
 }
