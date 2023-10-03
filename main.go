@@ -7,6 +7,22 @@ import (
 )
 
 func main() {
+	nodes := &leetcode.ListNode{
+		Val: 1,
+		Next: &leetcode.ListNode{
+			Val: 2,
+			Next: &leetcode.ListNode{
+				Val: 3,
+				Next: &leetcode.ListNode{
+					Val: 4,
+				},
+			},
+		},
+	}
 
-	fmt.Println("YNYYN", leetcode.BestClosingTime("YNYYN"))
+	response := leetcode.SwapPairs(nodes)
+
+	for response != nil {
+		fmt.Println(response.Val)
+	}
 }
