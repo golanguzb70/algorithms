@@ -30,7 +30,8 @@ for->2: sum = 9, head= 2, 0
 for->3: sum = 11, head = 0 -> break because val = 0;
 recursive - 3:
 
-
+time complexity -> O(n)
+space complexity -> O(number of recursions)
 */
 class Solution {
 public:
