@@ -14,9 +14,9 @@ func SwapPairs(head *ListNode) *ListNode {
 /*
  1. Not to lose pointer to the head of the linked list use temp to implement swapping
  2. Write a recursive helper function that swaps the nodes.
-    ||
+     ||
     \  /
-    \/
+     \/
 
 Swapping logic -> if node.next is not null ->
 temp := head
