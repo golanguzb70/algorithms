@@ -7,23 +7,7 @@ import (
 )
 
 func main() {
-	nodes := &leetcode.ListNode{
-		Val: 1,
-		Next: &leetcode.ListNode{
-			Val: 2,
-			Next: &leetcode.ListNode{
-				Val: 3,
-				Next: &leetcode.ListNode{
-					Val: 4,
-				},
-			},
-		},
-	}
+	arr := []int{14,12,14,14,12,14,14,12,12,12,12,14,14,12,14,14,14,12,12}
 
-	response := leetcode.SwapPairs(nodes)
-
-	for response != nil {
-		fmt.Println(response.Val)
-		response = response.Next
-	}
+	fmt.Println(leetcode.MinOperations(arr) == 7)
 }
