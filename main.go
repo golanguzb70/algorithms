@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	arr := []int{14,12,14,14,12,14,14,12,12,12,12,14,14,12,14,14,14,12,12}
-
-	fmt.Println(leetcode.MinOperations(arr) == 7)
+	// arr := []int{10,9,2,5,3,7,101,18}
+	arr2 := []int{0,1,0,3,2,3}
+	fmt.Println(leetcode.LengthOfLIS(arr2))
 }

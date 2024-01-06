@@ -7,7 +7,7 @@ package leetcode
 
 var pos = 1
 
-func hasCycle(head *ListNode) bool {
+func HasCycle(head *ListNode) bool {
 	var val, index = 0, 0
 
 	for head != nil {
