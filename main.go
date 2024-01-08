@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	arr := []int{1, 2, 3, 4}
-	fmt.Println(leetcode.FindMatrix(arr))
+	g := []int{1, 2}
+	s := []int{1, 2, 3}
+	fmt.Println(leetcode.FindContentChildren(g, s))
 }
