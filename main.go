@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	arr := []int{1, 3, 4, 1, 2, 3, 1}
+	arr := []int{1, 2, 3, 4}
 	fmt.Println(leetcode.FindMatrix(arr))
 }
