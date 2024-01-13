@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	g := []int{1, 2}
-	s := []int{1, 2, 3}
-	fmt.Println(leetcode.FindContentChildren(g, s))
+	s := "bab"
+	t := "aba"
+	fmt.Println(leetcode.MinSteps(s, t))
 }
