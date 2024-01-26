@@ -7,6 +7,5 @@ import (
 )
 
 func main() {
-	matches := [][]int{{2, 3}, {1, 3}, {5, 4}, {6, 4}}
-	fmt.Println(leetcode.FindWinners(matches))
+	fmt.Println(leetcode.FindPaths(1, 3, 3, 0, 1))
 }
