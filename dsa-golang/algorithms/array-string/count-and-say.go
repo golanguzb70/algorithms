@@ -22,7 +22,7 @@ Given a positive integer n, return the nth element of the count-and-say sequence
 3. Call them recursively n-1 times.
 
 Time complexity: O(n)
-Space complexity: O(n)
+Space complexity: O(n^2)
 
 */
 
