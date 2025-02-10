@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	resp := CountAndSay(4)
-	fmt.Println(resp)
+	input := "/.../a/../b/c/../d/./"
+	fmt.Println(SimplifyPath(input))
 }
