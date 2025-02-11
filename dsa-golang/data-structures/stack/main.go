@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+/*
+	Stack is data structure that is LIFO:
+	Push -> Adding value. -> O(n) (Worst case when resizing is needed)
+	Pop -> Reading and removing value from end of the stack -> O(1)
+	Peek -> Reading from the end of the stack. ->  O(1)
+*/
+
 type Stack struct {
 	items []int
 }
