@@ -6,8 +6,9 @@ import (
 
 func main() {
 
-	input := []int{3, 30, 34, 5, 9} //
-	// input := []int{3432, 34323}     //343234323
-
-	fmt.Println(LargestNumber(input))
+	// input := []int{1,1,1,2,3} // 4
+	input := []int{1,1,1,2,2,3} // 5
+	// input := []int{0, 0, 1, 1, 1, 1, 2, 3, 3} // 7
+	fmt.Println(RemoveDuplicates(input))
+	fmt.Println(input)
 }
