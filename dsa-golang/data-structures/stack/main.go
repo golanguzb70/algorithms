@@ -37,15 +37,5 @@ func (s *Stack) Peek() (int, bool) {
 }
 
 func main() {
-	s := Stack{}
-
-	s.Push(1)
-	s.Push(2)
-	fmt.Println(s.Peek())
-	fmt.Println(s.Pop())
-	fmt.Println(s.Peek())
-
-	s.Push(10)
-
-	fmt.Println(s.items)
+	fmt.Println(IsValid("()"))
 }
