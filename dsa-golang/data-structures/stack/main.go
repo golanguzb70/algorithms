@@ -37,6 +37,5 @@ func (s *Stack) Peek() (int, bool) {
 }
 
 func main() {
-	input := []string{"10","6","9","3","+","-11","*","/","*","17","+","5","+"}
-	fmt.Println(EvalRPN(input))
+	fmt.Println(GenerateParenthesis(1))
 }
