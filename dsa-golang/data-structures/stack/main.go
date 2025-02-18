@@ -37,5 +37,6 @@ func (s *Stack) Peek() (int, bool) {
 }
 
 func main() {
-	fmt.Println(GenerateParenthesis(1))
+	input := []int{73, 74, 75, 71, 69, 72, 76, 73}
+	fmt.Println(DailyTemperatures(input))
 }
