@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	input := []int{7,1,5,3,6,4}
-	fmt.Println(MaxProfit(input))
+	nums := []int{1, 3, -1, -3, 5, 3, 6, 7}
+	k := 3
+	fmt.Println(MaxSlidingWindow(nums, k))
 }
